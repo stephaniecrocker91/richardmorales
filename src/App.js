@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import styles from './App.module.css';
 import Landing from './components/Landing';
 import NavBar from './components/NavBar';
-import Intro from './components/Intro';
+import Intro from './components/Servicios';
 import Bio from './components/Bio';
 import Contact from './components/Contact';
 import Blog from './components/Blog';
@@ -21,8 +21,8 @@ function App() {
           <Landing />
         </div>   
       } />
-        <Route exact="true" path="/registrosakashicos" element= {<Intro />} />
-        <Route exact="true" path="/paulaparral" element= {<Bio />} />
+        <Route exact="true" path="/servicios" element= {<Intro />} />
+        <Route exact="true" path="/richardmorales" element= {<Bio />} />
         <Route exact="true" path="/blog" element= {<Blog />} />
         <Route exact="true" path="/contacto" element= {<Contact />} />
       </Routes>

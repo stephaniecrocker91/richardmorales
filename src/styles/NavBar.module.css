@@ -2,16 +2,17 @@
     text-transform: uppercase;
     letter-spacing: 3px;
     margin-right: 20px;
+    color: white!important;
 }
 
 .Link {
     margin-right: 20px;
-    color: #2d2e38;
+    color: white!important;
     text-decoration: none!important;
 }
 
 .NavBar {
-
+    background-color: #778566!important;
     z-index: 1;
     width: 100%;
     margin-left: 0;
@@ -21,7 +22,7 @@
 .Social {
     margin-left: 20px;
     font-size: 30px;
-    color: #2d2e38;
+    color: white;
     text-align: center;
 }
 .Social:hover{

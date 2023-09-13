@@ -31,7 +31,7 @@ function NavBar() {
                 <NavLink exact="true" to="/" className={
                                 styles.Link
                         }>
-                    <Navbar.Brand className={styles.Logo}>Paula Parral</Navbar.Brand>
+                    <Navbar.Brand className={styles.Logo}>Richard Morales</Navbar.Brand>
                 </NavLink>
                 <Navbar.Toggle onClick={()=> setExpanded(!expanded)} ref= {ref} aria-controls="navbarScroll"/>
                 <Navbar.Collapse id="navbarScroll">
@@ -49,18 +49,18 @@ function NavBar() {
                             className={
                                 styles.Link
                         }>Home</NavLink>
-                        <NavLink to="/registrosakashicos"
+                        <NavLink exact="true" to="/richardmorales"
                             className={
                                 styles.Link
-                        }>Registros Akashicos</NavLink>
-                        <NavLink exact="true" to="/paulaparral"
+                        }>Biografía</NavLink>
+                        <NavLink to="/servicios"
                             className={
                                 styles.Link
-                        }>Acerca de la Lectora</NavLink>
-                        <NavLink exact="true" to="/blog"
+                        }>Servicios</NavLink>
+                        {/*<NavLink exact="true" to="/blog"
                             className={
                                 styles.Link
-                        }>Blog</NavLink>
+                        }>Blog</NavLink> */}
                         <NavLink exact="true" to="/contacto"
                             className={
                                 styles.Link
@@ -71,7 +71,7 @@ function NavBar() {
                         <a className={
                                 styles.Social
                             }
-                            href="https://www.facebook.com/paula.parral.7"
+                            href="https://www.facebook.com/Termerg"
                             target="_blank"
                             rel="noopener noreferrer">
                             <i class="fa-brands fa-facebook"></i>
@@ -79,7 +79,7 @@ function NavBar() {
                         <a className={
                                 styles.Social
                             }
-                            href='https://www.instagram.com/paulaparral/'
+                            href='https://www.instagram.com/richardmorales1612/'
                             target="_blank"
                             rel="noopener noreferrer">
                             <i class="fa-brands fa-square-instagram"></i>
@@ -87,14 +87,14 @@ function NavBar() {
                         <a className={
                                 styles.Social
                             }
-                            href="mailto:paulaparral@hotmail.com">
+                            href="mailto:morales.r51@gmail.com">
                             <i class="fa-solid fa-envelope"></i>
                         </a>
                         <a 
                         className={
                             styles.Social
                         }
-                        href="https://wa.me/+59899142351"
+                        href="https://wa.me/+59895783566"
                         target="_blank"
                         rel="noopener noreferrer">
                         <i class="fa fa-whatsapp whatsapp-icon"></i>

@@ -9,8 +9,8 @@ function Contact() {
         <>
         <div className={app.Box}>
             <h3> Contacto </h3> 
-            <p>Whatsaap: +598(0)99142351</p>
-            <p>Email: paulaparral@hotmail.com</p>
+            <p>Whatsaap: +598(0)95783566</p>
+            <p>Email: morales.r51@gmail.com</p>
         </div>
         </>
     );

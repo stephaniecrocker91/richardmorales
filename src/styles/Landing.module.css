@@ -11,6 +11,7 @@
     justify-content: center;
     align-items: center;
     left:0;
+    color: white;
 }
 
 .LandingText div {
@@ -32,7 +33,7 @@ h2{
 
 .Button{
     padding: 10px 10px;
-    background-color: #2d2e38a3;
+    background-color: #778566b7;
     text-transform: uppercase;
     letter-spacing: 2px;
     position: absolute;

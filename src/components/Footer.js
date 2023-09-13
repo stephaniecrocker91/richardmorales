@@ -6,7 +6,7 @@ function Footer() {
         <>
 
             <footer className={styles.Footer}>
-            Copywright © 2023 Registros Akashicos Paula Parral, all rights reserved.
+            Copywright © 2023 Richard Morales, all rights reserved.
 
             </footer>
             

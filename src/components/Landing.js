@@ -4,7 +4,6 @@ import image from '../images/starimage.png'
 import Button from 'react-bootstrap/Button';
 import { NavLink } from 'react-router-dom'
 import Video from './Video';
-import Footer from './Footer';
 
 
 function Landing() {
@@ -15,8 +14,8 @@ function Landing() {
                 <div className={
                     styles.LandingText
                 }>
-                    <h1>Paula Parral</h1>
-                    <h2>Registros Akashicos</h2>
+                    <h1>Richard Morales</h1>
+                    <h2>terapeuta holístico</h2>
                 </div>
                 <NavLink to="/registrosakashicos">
                     <Button variant="dark" className={styles.Button}>Bienvenidos</Button>

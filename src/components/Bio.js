@@ -2,7 +2,7 @@ import {React} from 'react';
 import styles from '../styles/Bio.module.css'
 import app from '../App.module.css'
 import {Container, Row, Col} from 'react-bootstrap';
-import hero from '../images/paula.png'
+import hero from '../images/richard.png'
 import video from '../images/stars.mp4'
 import image from '../images/starimage.png'
 
@@ -20,10 +20,10 @@ function Bio() {
                     }
             }>
                 <h3>
-                    Paula Parral
+                    Richard Morales
                 </h3>
                 <h4>
-                    Lectora de Registros Akashicos, Reikista y Sanacion Pranica
+                    Instructor Tai Chi Chuan, Qigong, Terapeuta MTCH, Maestro de Reiki, Terapeuta Floral, Instructor de Yoga
                 </h4>
                 <Row className={styles.Margin}>
                     <Col lg={4} md={4} sm={12} xs={12}><img src={hero}
