@@ -1,0 +1,63 @@
+.App {
+  font-family: 'Red Hat Display', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  min-height: 100vh;
+}
+
+.AppContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+html,body {
+  text-align: center;
+  background-color: #2d2e38;
+  color: white;
+}
+
+.Content {
+  margin-top: 60px;
+  flex:1;
+  min-height: calc(90vh);
+}
+
+.Box {
+  padding: 20px 50px ;
+
+}
+
+h1,h2,h3,h4{
+  text-transform: uppercase;
+}
+
+h3{
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+
+h4{
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+p{
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+
+@media screen and (max-width: 450px) {
+  .Box {
+    padding: 10px 10px ;
+  }
+}
+
+@media screen and (max-width: 500px) {
+.Content {
+  background-color:transparent!important;
+  }
+}
+
+
