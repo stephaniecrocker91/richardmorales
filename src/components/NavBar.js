@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import styles from '../styles/NavBar.module.css'
 import { NavLink } from 'react-router-dom'
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import { useEffect, useRef, useState } from 'react';
 
 function NavBar() {
@@ -65,7 +66,6 @@ function NavBar() {
                             className={
                                 styles.Link
                         }>Contacto</NavLink>
-
                     </Nav>
                     <div className="d-flex">
                         <a className={

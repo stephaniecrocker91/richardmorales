@@ -27,7 +27,7 @@ function Bio() {
                 </h4>
                 <Row className={styles.Margin}>
                     <Col lg={4} md={4} sm={12} xs={12}><img src={hero}
-                            alt='Imagen Paula Parral'
+                            alt='Imagen Richard Morales'
                             className={
                                 styles.BioImage
                             }/></Col>
