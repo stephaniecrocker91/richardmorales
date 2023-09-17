@@ -47,6 +47,7 @@ function Intro() {
                     </Col>
                 </Row>
                 <Row className={styles.Margin}>   
+                    
                     <Col>
                         <div className={
                             styles.Box

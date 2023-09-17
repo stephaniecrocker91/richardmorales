@@ -29,6 +29,13 @@
     cursor: pointer;
 }
 
+.Mobile {
+    display: none;
+}
+.Desktop{
+    display:block;
+}
+
 @media screen and (max-width: 767px) {
 
     .BioText{
@@ -45,9 +52,15 @@
     .BioImage{
         width: 70vw;
         height: 40vh;
-    
+    }
+    .Mobile {
+        display: block;
+    }
+    .Desktop{
+        display:none;
     }
 }
+
 
 
 
