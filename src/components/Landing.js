@@ -15,7 +15,7 @@ function Landing() {
                     styles.LandingText
                 }>
                     <h1>Richard Morales</h1>
-                    <h2>terapeuta holístico</h2>
+                    <h2>Artes Internas</h2>
                 </div>
                 <NavLink to="/registrosakashicos">
                     <Button variant="dark" className={styles.Button}>Bienvenidos</Button>
