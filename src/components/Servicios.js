@@ -3,6 +3,10 @@ import app from '../App.module.css';
 import styles from '../styles/Servicios.module.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import hero from '../images/richard.png';
+import china from '../images/china.jpg';
+import meditacion from '../images/meditacion.jpg';
+import yoga from '../images/yoga.jpg';
+
 
 function Servicios() {
     const serviciosData = [
@@ -18,17 +22,17 @@ function Servicios() {
         },
         {
             title: "Yoga",
-            image: hero,
+            image: yoga,
             info: "El yoga es una antigua práctica física, mental y espiritual..."
         },
         {
             title: "Meditación",
-            image: hero,
+            image: meditacion,
             info: "La meditación es una práctica mental que implica concentrar la mente..."
         },
         {
             title: "Medicina Tradicional China",
-            image: hero,
+            image: china,
             info: "La Medicina Tradicional China (MTC) es un sistema de medicina..."
         },
         {

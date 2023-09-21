@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import styles from './App.module.css';
 import Landing from './components/Landing';
 import NavBar from './components/NavBar';
-import Intro from './components/ServiciosOld';
 import Bio from './components/Bio';
 import Contact from './components/Contact';
 import Blog from './components/Blog';
