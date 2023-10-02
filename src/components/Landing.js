@@ -9,7 +9,7 @@ import Video from './Video';
 function Landing() {
     return (
         <>
-                <img src={image} className={styles.Mobile}/>
+                <img src={image} className={styles.Mobile} loading="lazy"/>
                 <Video />
                 <div className={
                     styles.LandingText

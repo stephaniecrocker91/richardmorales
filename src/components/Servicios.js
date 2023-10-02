@@ -2,7 +2,6 @@ import React from 'react';
 import app from '../App.module.css';
 import styles from '../styles/Servicios.module.css';
 import {Container, Row, Col} from 'react-bootstrap';
-import hero from '../images/richard.png';
 import china from '../images/china.jpg';
 import meditacion from '../images/meditacion.jpg';
 import yoga from '../images/yoga.jpg';
@@ -104,7 +103,9 @@ function Servicios() {
                                     }
                                     className={
                                         styles.BioImage
-                                    }/>
+                                    }
+                                    loading="lazy"
+                                    />
                             </Col>
                             <Col>
                                 <div className={

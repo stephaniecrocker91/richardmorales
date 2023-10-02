@@ -30,7 +30,8 @@ function Bio() {
                             alt='Imagen Richard Morales'
                             className={
                                 styles.BioImage
-                            }/></Col>
+                            }
+                            loading="lazy"/></Col>
                     <Col>
                         <div className={
                             styles.Box

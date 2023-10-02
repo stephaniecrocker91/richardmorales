@@ -8,7 +8,7 @@ function Video() {
     return (
         <>
             {/*<img src={image} className={styles.Mobile}/>*/}
-            <video src={video} autoPlay loop muted className={styles.Desktop}/>
+            <video src={video} autoPlay loop muted className={styles.Desktop} preload="none"/>
         </>
     );
 }
