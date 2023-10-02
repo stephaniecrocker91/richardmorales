@@ -97,6 +97,17 @@ function Servicios() {
                                         <h4>{
                                             servicio.title
                                         }</h4>
+                                        <img src={
+                                        servicio.image
+                                    }
+                                    alt={
+                                        `Imagen ${
+                                            servicio.title
+                                        }`
+                                    }
+                                    className={`${styles.ServicioImage} ${styles.MobileImage}`}
+                                    loading="lazy"
+                                    />
                                         {
                                         servicio.info
                                     } </div>

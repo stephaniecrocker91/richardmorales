@@ -33,10 +33,12 @@
 .ReverseOrder {
     flex-direction: row-reverse;
 }
+.MobileImage{
+    display:none;
+}
 
 
 @media screen and (max-width: 767px) {
-
     .BioText{
         text-align: center;
     }
@@ -44,7 +46,12 @@
         display:none;
     
     }
-
+    .MobileImage {
+        margin:auto;
+        display: block;
+        max-height: 30vh;
+        width: 70vw;
+    }
 }
 
 @media screen and (max-width: 500px) {
