@@ -13,7 +13,7 @@
     text-align: left;
 }
 
-.BioImage{
+.ServicioImage{
     width: 25vw;
     max-height: 50vh;
 }
@@ -40,18 +40,14 @@
     .BioText{
         text-align: center;
     }
-    .BioImage{
-        width: 40vw;
+    .ServicioImage{
+        display:none;
     
     }
 
 }
 
 @media screen and (max-width: 500px) {
-    .BioImage{
-        width: 70vw;
-        height: 40vh;
-    }
     .ReverseOrder {
         flex-direction: row-reverse;
     }

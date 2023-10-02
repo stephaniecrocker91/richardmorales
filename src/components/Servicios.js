@@ -86,27 +86,7 @@ function Servicios() {
                                 }`
                             }
                             key={index}>
-                            <Col lg={4}
-                                md={4}
-                                sm={12}
-                                xs={12}
-                                className={
-                                    index % 2 === 1 ? styles.MobileImage : ''
-                            }>
-                                <img src={
-                                        servicio.image
-                                    }
-                                    alt={
-                                        `Imagen ${
-                                            servicio.title
-                                        }`
-                                    }
-                                    className={
-                                        styles.BioImage
-                                    }
-                                    loading="lazy"
-                                    />
-                            </Col>
+                            
                             <Col>
                                 <div className={
                                     styles.Box
@@ -121,6 +101,25 @@ function Servicios() {
                                         servicio.info
                                     } </div>
                                 </div>
+                            </Col>
+                            <Col lg={4}
+                                md={4}
+                                sm={12}
+                                xs={12}
+                                >
+                                <img src={
+                                        servicio.image
+                                    }
+                                    alt={
+                                        `Imagen ${
+                                            servicio.title
+                                        }`
+                                    }
+                                    className={
+                                        styles.ServicioImage
+                                    }
+                                    loading="lazy"
+                                    />
                             </Col>
                         </Row>
                     ))
