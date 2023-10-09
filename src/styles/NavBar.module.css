@@ -37,3 +37,9 @@
 .Social:hover{
     cursor: pointer;
 }
+
+@media screen and (max-width: 500px) {
+    .Logo {
+      font-size: 22px;
+      }
+    }

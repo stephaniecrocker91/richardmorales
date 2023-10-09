@@ -7,14 +7,13 @@ import video from '../images/stars.mp4'
 function Contact() {
     return (
         <>
-        <div className={styles.LightGreen}>
             <div className={
                 app.Box}>
                 <div className={app.LightGreen}>
                     <h2>Contacto</h2>
                     </div>
-                <p>Conéctate y síguenos en nuestras redes sociales</p>
-            </div>
+            <div className={app.Margin}>
+            <p><em>Conéctate con nosotros...</em></p>      
             <div class={styles.SocialContainer}>
             <span>
                 <a className={
@@ -36,6 +35,11 @@ function Contact() {
                 </a>
                 <p>Mail</p>
             </span>
+            </div>
+            </div>
+            <div className={app.Margin}>
+            <p><em>Y síguenos en nuestras redes sociales.</em></p>
+            <div class={styles.SocialContainer}>
             <span>
                 <a className={
                         styles.Social
@@ -58,7 +62,7 @@ function Contact() {
                 </a>
                 <p>Facebook</p>
             </span>
- 
+            </div>
             </div>
             </div>
         </>
