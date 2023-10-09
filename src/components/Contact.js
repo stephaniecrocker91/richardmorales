@@ -10,9 +10,9 @@ function Contact() {
         <div className={styles.LightGreen}>
             <div className={
                 app.Box}>
-                <h3>
+                <h2>
                     Contacto
-                </h3>
+                </h2>
                 <p>Conéctate y síguenos en nuestras redes sociales</p>
             </div>
             <div class={styles.SocialContainer}>

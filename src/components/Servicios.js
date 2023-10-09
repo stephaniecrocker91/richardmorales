@@ -74,7 +74,7 @@ function Servicios() {
                             paddingRight: 0
                         }
                 }>
-                    <h3>Servicios</h3>
+                    <h2>Servicios</h2>
                     {/* Resto del contenido */}
                     {
                     serviciosData.map((servicio, index) => (
