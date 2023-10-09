@@ -74,7 +74,9 @@ function Servicios() {
                             paddingRight: 0
                         }
                 }>
+                    <div className={app.LightGreen}>
                     <h2>Servicios</h2>
+                    </div>
                     {/* Resto del contenido */}
                     {
                     serviciosData.map((servicio, index) => (

@@ -1,3 +1,7 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+
 .App {
   font-family: sans-serif;
   width: 100vw;
@@ -13,8 +17,9 @@
 
 html,body {
   text-align: center;
-  color: white;
-  background-color: #2219109a!important;
+  color: #3A3B3C;
+  background-color: #f7f7f7!important;
+
 }
 
 .Content {
@@ -24,33 +29,26 @@ html,body {
 }
 
 .Box {
-  padding: 100px 50px ;
+  padding: 10px 50px ;
 
 }
 
-h1,h2,h3,h4{
+.LightGreen{
+  background-color: #778566a8;
+}
+
+h1{
   text-transform: uppercase;
 }
 
-/*h1{
-  font-size: 50px;
-  font-weight: 300;
-  letter-spacing: 20px;
+h2,h3,h4{
+  font-family: 'Architects Daughter', cursive;
+  text-transform: uppercase;
 }
-
-h3{
-  letter-spacing: 3px;
-  font-weight: 300;
-}
-
-h4{
-  letter-spacing: 2px;
-  font-size: 14px;
-}*/
 
 p{
   letter-spacing: 1px;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .LightGreen{

@@ -14,8 +14,7 @@ function Landing() {
                 <div className={
                     styles.LandingText
                 }>
-                    <h1>Richard Morales</h1>
-                    <h2 className={styles.LandingSubtitle}>Artes Internas</h2>
+                    <h1 className={styles.LandingSubtitle}>Artes Internas</h1>
                 </div>
                 <NavLink to="/richardmorales">
                     <Button variant="dark" className={styles.Button}>Bienvenidos</Button>

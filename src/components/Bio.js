@@ -21,9 +21,9 @@ function Bio() {
 
                         }
                 }>
-                    <h2>
-                        Richard Morales
-                    </h2>
+                    <div className={app.LightGreen}>
+                    <h2>Richard Morales</h2>
+                    </div>
                     {/*<h4>
                         Instructor Tai Chi Chuan, Qigong, Terapeuta MTCH, Maestro de Reiki, Terapeuta Floral, Instructor de Yoga
             </h4>*/}

@@ -1,15 +1,24 @@
+.Green{
+    background-color: #778566!important;
+}
+
 .Logo {
-    text-transform: uppercase;
     letter-spacing: 3px;
+    font-size: 30px;
     margin-right: 20px;
     color: white!important;
+    font-family: 'Architects Daughter', cursive;
+    text-transform: uppercase;
 }
 
 .Link {
-    margin-right: 20px;
+    margin-right: 40px;
     color: white!important;
     text-decoration: none!important;
+    text-transform: uppercase;
+    font-family: 'Architects Daughter', cursive;
 }
+
 
 .NavBar {
     background-color: #778566!important;

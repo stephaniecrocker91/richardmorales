@@ -22,6 +22,8 @@ function NavBar() {
     }, [ref])
 
     return (
+        <>
+        <div className={styles.Green}>
         <Navbar expanded={expanded} fixed="top" expand="lg"
             className={
                 `bg-body-tertiary ${
@@ -29,11 +31,11 @@ function NavBar() {
                 }`
         }>
             <Container fluid>
-                <NavLink exact="true" to="/" className={
+                <NavLink exact="true" to="/" className={ 
                                 styles.Link
                         }>
                     <Navbar.Brand className={styles.Logo}>Richard Morales</Navbar.Brand>
-                </NavLink>
+                    </NavLink>
                 <Navbar.Toggle onClick={()=> setExpanded(!expanded)} ref= {ref} aria-controls="navbarScroll"/>
                 <Navbar.Collapse id="navbarScroll">
                     <Nav className={
@@ -104,6 +106,8 @@ function NavBar() {
             </Container>
         </Navbar>
         
+        </div>
+        </>
     );
 }
 
