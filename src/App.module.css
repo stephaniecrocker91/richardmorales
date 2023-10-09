@@ -46,6 +46,11 @@ p{
   font-weight: 200;
 }
 
+.LightGreen{
+  background-color: #77856662!important;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
 @media screen and (max-width: 450px) {
   .Box {

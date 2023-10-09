@@ -17,7 +17,7 @@ function Landing() {
                     <h1>Richard Morales</h1>
                     <h2>Artes Internas</h2>
                 </div>
-                <NavLink to="/registrosakashicos">
+                <NavLink to="/richardmorales">
                     <Button variant="dark" className={styles.Button}>Bienvenidos</Button>
                 </NavLink>
         </>
